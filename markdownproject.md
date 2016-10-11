@@ -26,7 +26,7 @@ Ik had graag deze aplicatie gedraad op een Raspberrypi zodat we hier steeds over
 ###Gebruikte onderdelen
 
 1. Front-end 
-	- html/css (eventueel bootstrap)
+	- Bootstrap
 2. back-end
 	- laravel
 3. Service
@@ -34,6 +34,14 @@ Ik had graag deze aplicatie gedraad op een Raspberrypi zodat we hier steeds over
 4. Security/maintenance
 	- Https
 	- Backup
+	
+###Les 3 start project
+
+Tijdens deze les werd er samen gezeten met de docent. Hier overlegde we het project.
+Ook kwam er nog het exrta idee voor een pi camera te gebruiken om te chekken wie een product genomen heeft.
+Zo zouden we wanneer de ijkast open gaat dit met een switch detecteren, dan met de pi een foto nemen.
+Zo kunnen we in de log dit opnemen en wanneer er binnen een bepaalde tijd geen melding is gedaan via de aplicatie dit als een verdachte transactie beschouwen.
+
 
 
 
