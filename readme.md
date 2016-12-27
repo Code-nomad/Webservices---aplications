@@ -42,6 +42,6 @@ Ook kwam er nog het exrta idee voor een pi camera te gebruiken om te chekken wie
 Zo zouden we wanneer de ijkast open gaat dit met een switch detecteren, dan met de pi een foto nemen.
 Zo kunnen we in de log dit opnemen en wanneer er binnen een bepaalde tijd geen melding is gedaan via de aplicatie dit als een verdachte transactie beschouwen.
 
-
-
+###Les 4 - 8
+Tijdens deze lessen worden gebruikt om kennis te maken met het laravel framework. Tijdens de eerste les wordt mijn pc klaargemaakt voor een laravel project te maken. Composer wordt geinstaleer en Xampp wordt geinstaleerd om te testen 
 
