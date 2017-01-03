@@ -34,6 +34,8 @@ Ik had graag deze aplicatie gedraad op een Raspberrypi zodat we hier steeds over
 3. Service
 	- Apache met vHost en handler
 	- No-ip met CAD
+	- Mailgun
+	
 4. Security/maintenance
 	- Https -> certbot
 	- Backup
