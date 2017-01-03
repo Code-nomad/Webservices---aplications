@@ -36,6 +36,8 @@ Ik had graag deze aplicatie gedraad op een Raspberrypi zodat we hier steeds over
 4. Security/maintenance
 	- Https
 	- Backup
+5. Paas
+	- IBM Bluemix
 	
 ###Les 3 start project
 
