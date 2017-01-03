@@ -4,9 +4,11 @@
 
 Het doel van project is een systeem te ontwerpen waarbij een stock beheer systeem wordt ontworpen voor een toepassing bij mij thuis.
 
-Tijdens mijn weekends breng ik tmijn tijd door samen met mijn vrienden in ons thuinhuis. Hier staat er een ijskast waar onze vooraad aan drinken in zit.
+Link naar de site https://tuinhuis.hopto.org/
+
+Tijdens mijn weekends breng ik mijn tijd door samen met mijn vrienden in ons tuinhuis. Hier staat er een ijskast waar onze vooraad aan drinken in zit.
 Ik had nu graag een systeem gemaakt dat het huidige systeem vervangt waarbij we een op een papier een streepje moeten zetten achter de drank die we genomen hadden.
-Graag had ik de volgende onderdelen in mijn project gehad
+Graag had ik de volgende onderdelen in mijn project gehad.
 
 1. Systeem voor aan te geven wat je gaat drinken	
 	- voor 1 of meerdere personen tegelijk
