@@ -29,8 +29,10 @@ Ik had graag deze aplicatie gedraad op een Raspberrypi zodat we hier steeds over
 
 1. Front-end 
 	- Bootstrap
+	
 2. back-end
 	- laravel
+	
 3. Service
 	- Apache met vHost en handler
 	- No-ip met CAD
@@ -39,6 +41,7 @@ Ik had graag deze aplicatie gedraad op een Raspberrypi zodat we hier steeds over
 4. Security/maintenance
 	- Https -> certbot
 	- Backup
+	
 5. Paas
 	- IBM Bluemix
 	
