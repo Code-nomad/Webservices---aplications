@@ -14,7 +14,7 @@ Vanuit de CMD line ga je naar de htdocs map van Xampp en maak en voer hier het v
 
 
 	cd c:\xampp\htdocs
-	laravel new 'jouw_projectnaam
+	laravel new jouw_projectnaam
 
 Zo wordt er een nieuw laravel project aangemaakt en kan je hier al naartoe surfen.
 
