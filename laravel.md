@@ -45,5 +45,9 @@ Later bij het overzetten naar het rpi werkte de javascript nietmeer. Dit kwam do
 
 ## Probleem Database ##
 
-Ik had nog het probleem dat ik vanuit laravel geen connectie kon maken met mijn mySql database. De oplossing hier voor was ...
+Ik had nog het probleem dat ik vanuit laravel geen connectie kon maken met mijn mySql database. De oplossing hier voor was het volgende
+
+	verwijder de any user
+	wwRoot aanzetten
+	een extra laraveluser maken om te verbinden
 
