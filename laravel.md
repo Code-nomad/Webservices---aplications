@@ -22,7 +22,7 @@ Zo wordt er een nieuw laravel project aangemaakt en kan je hier al naartoe surfe
 
 In de eerst weken van het project werk volg ik de filpjes van Laracasts om zo met laravel te leren werken. hier ondervind ik geen echte moeilijkheden. Ik probeer tijdens het werken aan het project veel aandacht te schenken aan user authenticatie. Echter kom ik er na enkele weken achter dat laravel dit met een 1 commando al supper veel voorziet. Ik laat mij werk van de afgelopen weken dan ook voor wat het is en start met een nieuw project en laat deze authenticatie doen door de laravelfunctie.
 
-	laravel new 'jouw_projectnaam
+	laravel new jouw_projectnaam
 	php artisan make:auth
 
 Dit is geweldig, ik heb nu ondervonden dat met het gebruik te maken van dit framework je in 5 minuten het werk van enkele weken kan vervangen. Echter moest ik nog wel wat aanpassen omdat de make:auth functie toch nog wat foutjes maakte in mij implementatie. Dit zou kunnen liggen aan het feit dat ik op een windows machine werk, waar de meeste mensen van de communetie linux/mac gebruikers zijn.
