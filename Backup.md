@@ -1,6 +1,6 @@
 # Backup Databank naar FTP #
 
-Voor het backuppen van mijn databank schreef ik een script. Ik zocht eerst uit hoe ik juist met FTP moest werken. Daarna voegede ik 2 scripen die online vond samen tot het volgend script.
+Voor het backuppen van mijn databank schreef ik een script. Ik zocht eerst uit hoe ik juist met FTP moest werken. Daarna voegede ik 2 scripen die online vond samen tot het volgend script. Ik maakt zelf ook nog enkele aanpassingen zodat elke zip op de ftp uniek is.
 
 De FTP server die ik gebruik is deze van de webruimte die standaard bij mijn telenet pakket bij zit.
 
