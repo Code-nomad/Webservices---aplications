@@ -32,12 +32,21 @@ De code instaleren
 
 Runnen en de stappen volgen
 
-	sudo noip2 ­-S
+	sudo noip2 -S
 	
+### Netwerkconfiguratie
+	
+Om de site van buiten af te kunnen berijken moeten we natuurlijk ook poorten openzetten om de zerver te berijken van buitenaf. De volgende poorten worden opengezet.
 
+	80  -> Http
+	443 -> Https
+	22  -> SSH
 	
-	
+Ook zorgen we er voor dat de Rpi een static ip heeft. Verder plaatsen we de Rpi ook nog in de DMZ van de router.
 
+#### Note
+
+Ik merkte op dat het statusledje van de ethernet poort van de pi bijna continu flikkert. Ik was al in de veronderstelling dat dit kwam door de openstaande ssh poort. Ik zocht dan ook de log file op waar de loginpogingen worden bijgehouden. In deze file merkte ik op dat er efficief enorm veel mislukt login pogingen waren. Ik besliste dan ook om de poort gewoon dicht te zetten en deze gewoon te openen telkens ik van buitenaf aan de server wil werken. Van thuis uit kan ik natuurlijk wel gewoon naar het locaal ip SSH'en. Zo beperk ik een hoop onnuttige netwerktrafiek. 
 
 ## Bronnen ##
 
