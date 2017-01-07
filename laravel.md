@@ -50,4 +50,4 @@ Ik had nog het probleem dat ik vanuit laravel geen connectie kon maken met mijn 
 	verwijder de any user
 	wwRoot aanzetten
 	een extra laravel user maken om te verbinden
-
+	
