@@ -12,7 +12,7 @@ Ik registeerde mij op no-ip. Ik maakte hier eerst de domeinaam aan voor de webap
 
 ### DUC
 
-De volgende stap was het configuren van de DUC of Dynamic Update Client. Deze heeft als doel te laten weten aan no-ip op welk WAN-IP de server zich bevind. Dit is van belang omdat het WAN-IP dat je van je ISP krijgt kan veranderen. Je zou op de site van no-ip zelf je wan ip van dat moment kunnen ingeven maar wanneer je isp je dan een ander ip zou toekenne is de server niet meer berijkbaar. Daarom gebruik je deze DUC. Deze zal om een bepaalde tijd (bij mij 30min) het ip waarop de server draait doorgeven aan no-ip. Daardoor is de site altijd berijkbaar. Ik volgde volgende stappen.
+De volgende stap was het configuren van de DUC of Dynamic Update Client. Deze heeft als doel te laten weten aan no-ip op welk WAN-IP de server zich bevind. Dit is van belang omdat het WAN-IP dat je van je ISP krijgt kan veranderen. Je zou op de site van no-ip zelf je wan ip van dat moment kunnen ingeven maar wanneer je isp je dan een ander ip zou toekennen is de server niet meer berijkbaar. Daarom gebruik je deze DUC. Deze zal om een bepaalde tijd (bij mij 30min) het ip waarop de server draait doorgeven aan no-ip. Daardoor is de site altijd berijkbaar. Ik volgde volgende stappen.
 
 Nieuwe map aanmaken voor sourcecode in te downloaden
 
@@ -36,7 +36,7 @@ Runnen en de stappen volgen
 	
 ### Netwerkconfiguratie
 	
-Om de site van buiten af te kunnen berijken moeten we natuurlijk ook poorten openzetten om de zerver te berijken van buitenaf. De volgende poorten worden opengezet.
+Om de site van buiten af te kunnen berijken moeten we natuurlijk ook poorten openzetten om de server te berijken van buitenaf. De volgende poorten worden opengezet.
 
 	80  -> Http
 	443 -> Https
@@ -46,7 +46,7 @@ Ook zorgen we er voor dat de Rpi een static ip heeft. Verder plaatsen we de Rpi 
 
 #### Note
 
-Ik merkte op dat het statusledje van de ethernet poort van de pi bijna continu flikkert. Ik was al in de veronderstelling dat dit kwam door de openstaande ssh poort. Ik zocht dan ook de log file op waar de loginpogingen worden bijgehouden. In deze file merkte ik op dat er efficief enorm veel mislukt login pogingen waren. Ik besliste dan ook om de poort gewoon dicht te zetten en deze gewoon te openen telkens ik van buitenaf aan de server wil werken. Van thuis uit kan ik natuurlijk wel gewoon naar het locaal ip SSH'en. Zo beperk ik een hoop onnuttige netwerktrafiek. 
+Ik merkte op dat het statusledje van de ethernet poort van de pi bijna continu flikkert. Ik was al in de veronderstelling dat dit kwam door de openstaande ssh poort. Ik zocht dan ook de log file op waar de loginpogingen worden bijgehouden. In deze file merkte ik op dat er effectief enorm veel mislukte login pogingen waren. Ik besliste dan ook om de poort gewoon dicht te zetten en deze gewoon te openen telkens ik van buitenaf aan de server wil werken. Van thuis uit kan ik natuurlijk wel gewoon naar het locaal ip SSH'en. Zo beperk ik een hoop onnuttige netwerktrafiek. 
 
 ## Bronnen ##
 
