@@ -10,7 +10,7 @@ De uiteindelijke aplicatie draait op de rpi2 maar om te ontwikkelen gebruikte ik
 Om te kunnen starten met ontwikkelen moet er eerst composer geinstalleerd worden.
 Op windows installeer je composer gewoon door [https://getcomposer.org/download/](https://getcomposer.org/download/ "De website van composer") te surfen en hier de .exe te downloaden. Deze zal ook composer aan de PATH variablen toevoegen zodat je vanuit de CMD line composer vanuit elke dir kan uitvoeren.
 
-Vanuit de CMD line ga je naar de htdocs map van Xampp en maak en voer hier het volgende commando uit
+Vanuit de CMD line ga je naar de htdocs map van Xampp en voer je hier het volgende commando uit
 
 
 	cd c:\xampp\htdocs
@@ -20,7 +20,7 @@ Zo wordt er een nieuw laravel project aangemaakt en kan je hier al naartoe surfe
 
 ## De mogelijkheden van laravel ontdekken ##
 
-In de eerst weken van het project werk volg ik de filpjes van Laracasts om zo met laravel te leren werken. hier ondervind ik geen echte moeilijkheden. Ik probeer tijdens het werken aan het project veel aandacht te schenken aan user authenticatie. Echter kom ik er na enkele weken achter dat laravel dit met een 1 commando al supper veel voorziet. Ik laat mij werk van de afgelopen weken dan ook voor wat het is en start met een nieuw project en laat deze authenticatie doen door de laravelfunctie.
+In de eerste weken van het project volg ik de filmpjes van Laracasts om zo met laravel te leren werken. hier ondervind ik geen echte moeilijkheden. Ik probeer tijdens het werken aan het project veel aandacht te schenken aan user authenticatie. Echter kom ik er na enkele weken achter dat laravel dit met een 1 commando al supper veel voorziet. Ik laat mij werk van de afgelopen weken dan ook voor wat het is en start met een nieuw project en laat deze authenticatie doen door de laravelfunctie.
 
 	laravel new jouw_projectnaam
 	php artisan make:auth
@@ -41,7 +41,7 @@ Het eerste probleem is dat er totaal geen lay-out was aan mijn aplicatie. Ook wa
     <script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
 
 
-Later bij het overzetten naar het rpi werkte de javascript nietmeer. Dit kwam doordat de oude js lijn onderaan de layoutfile nog bestond. Door deze te verwijderen loste ik dit probleem ook op.
+Later bij het overzetten naar het rpi werkte de javascript niet meer. Dit kwam doordat de oude js lijn onderaan de layoutfile nog bestond. Door deze te verwijderen loste ik dit probleem ook op.
 
 ## Probleem Database ##
 
