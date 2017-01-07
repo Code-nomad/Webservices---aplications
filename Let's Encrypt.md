@@ -2,7 +2,7 @@
 
 Om Https te gebruiken op mijn site maak ik gebruik van let's encrypt. Om Https te kunnen gebruiken moet je een certificaat krijgen van een CA. Let's encrypt is zo'n CA waar je dit kan aanvragen.
 
-Je site secure te maken is echt supper gemakelijk via Certbot. Dit is de tool dat let's encrypt aanraad op hun site. In enkele minuten is berijkbaar via Https en heb je mooi groen slotje naast je URL.
+Je site secure maken is echt super gemakelijk via Certbot. Dit is de tool dat let's encrypt aanraad op hun site. In enkele minuten is de site berijkbaar via Https en heb je een mooi groen slotje naast je URL.
 
 Ik volgde volgende stappen
 
