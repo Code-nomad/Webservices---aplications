@@ -14,7 +14,7 @@ Graag had ik de volgende onderdelen in mijn project gehad.
 
 1. Systeem voor aan te geven wat je gaat drinken	
 	- voor 1 of meerdere personen tegelijk
-2. Het checken van de stock en het melden wanneer 
+2. Het checken van de stock en het melden wanneer er iets bijna op is
 	- een standaard overzicht
 	- mail sturen wanneer er nieuwe drank moet aagekocht worden
 3. Het checken van de schuld per gebruiker
@@ -54,7 +54,7 @@ Zo kunnen we in de log dit opnemen en wanneer er binnen een bepaalde tijd geen m
 Tijdens deze lessen worden gebruikt om kennis te maken met het laravel framework. Tijdens de eerste les wordt mijn pc klaargemaakt voor een laravel project te maken. Composer wordt geinstaleer en Xampp wordt geinstaleerd om te testen 
 
 ###Les 9 - 11 Nieuwe start larravel
-De vorige lessen had ik de de focus gelegd op het user authentication deel van mijn site. Echter kwam ik achter dat door een eenvoudig commando dit in laravel dit allemaal in no time opgelost is. Ik besluit dan ook om het werk van de vorige weken gewoon als oefening voor laravel te beschouwen en gewoon van hieruit opnieuw te begingen.
+De vorige lessen had ik de de focus gelegd op het user authentication deel van mijn site. Echter kwam ik er achter dat door een eenvoudig commando dit in laravel dit allemaal in no time opgelost is. Ik besluit dan ook om het werk van de vorige weken gewoon als oefening voor laravel te beschouwen en gewoon van hieruit opnieuw te begingen.
 
 ###Les 12 - Projectvoorstel
 In deze periode werk ik de site af en werk ik alle bijhorende onderdelen van het project af.
