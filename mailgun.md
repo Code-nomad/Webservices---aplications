@@ -12,7 +12,7 @@ Ik maak een enhanced plan aan op no-ip. Op dat moment had ik het idee dat ik de 
 
 Deze domeinnaam registeer ik dan op mailgun en voor de TXT records in. Het acount is volgens mailgun nu volledig in orde.
 
-Mijn idee was enkel deze domeinnaam te gebruiken voor mailgun maar de oude originele domeinnaam gewoon te behouden voor de heudige site. Dit moet in mijn ogen perfect gaan aangezien dit ook mogelijk is als je het standaard sandboxacount van mailgun gebruikt.
+Mijn idee was enkel deze domeinnaam te gebruiken voor mailgun maar de oude originele domeinnaam gewoon te behouden voor de huidige site. Dit moet in mijn ogen perfect gaan aangezien dit ook mogelijk is als je het standaard sandboxacount van mailgun gebruikt.
 
 Echter werkt dit niet zoals ik dacht en moet ik hier nog naar de oplossing zoeken. Je krijgt telkens deze error terug van laravel.
 
@@ -22,11 +22,11 @@ Echter werkt dit niet zoals ik dacht en moet ik hier nog naar de oplossing zoeke
 	"message": "Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in (truncated...)
 	}
 
-Zeer vreemd aangezien aangezien mailgun gratis is voor de eerste 10 000 mails.
+Zeer vreemd aangezien mailgun gratis is voor de eerste 10 000 mails.
 
 Aangezien ik maar 7 vaste gebruikers heb op mijn aplictie voeg ik hun mailadressen toe aan de "Authorized Recipients" lijst. Zo kunnen zij wel mails ontvangen.
 
-De configuratie van de mail doe je in de .env file als volgd. (je kan dit allemaal terugvinden op je mailgun acount)
+De configuratie van de mail doe je in de .env file als volgt. (je kan dit allemaal terugvinden op je mailgun acount)
 
 	MAIL_DRIVER=mailgun
 	MAIL_HOST=smtp.mailgun.org
