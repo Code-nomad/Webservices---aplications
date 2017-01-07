@@ -8,7 +8,7 @@ Link naar de site https://tuinhuis.hopto.org/
 
 Link naar test met Bluemix project https://projectfridge.mybluemix.net/
 
-Tijdens mijn weekends breng ik mijn tijd door samen met mijn vrienden in ons tuinhuis. Hier staat er een ijskast waar onze vooraad aan drinken in zit.
+Tijdens mijn weekends breng ik mijn tijd door samen met mijn vrienden in ons tuinhuis. Hier staat er een ijskast waar onze vooraad aan drank in zit.
 Ik had nu graag een systeem gemaakt dat het huidige systeem vervangt waarbij we een op een papier een streepje moeten zetten achter de drank die we genomen hadden.
 Graag had ik de volgende onderdelen in mijn project gehad.
 
